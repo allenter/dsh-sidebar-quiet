@@ -1,0 +1,48 @@
+{
+  "name": "dsh-sidebar-quiet",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Quiet, collapsible DSH left-sidebar footer: fold the balance / import / memory / logout rows into a single line so the workspace and session list get the vertical space.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "sidebar",
+    "userstyle",
+    "css"
+  ],
+  "license": "MIT",
+  "author": "allenter",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "tools",
+    "cordis.patch.yml",
+    "dsh.plugin.json",
+    "README.md",
+    "README.zh.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    },
+    "manifestVersion": 1
+  }
+}

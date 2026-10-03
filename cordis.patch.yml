@@ -1,0 +1,4 @@
+# dsh-sidebar-quiet bundle layer: mount the left-sidebar footer tidy plugin.
+- insert:
+    - id: sidebar-quiet
+      name: 'dsh-sidebar-quiet'

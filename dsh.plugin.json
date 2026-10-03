@@ -1,0 +1,12 @@
+{
+  "name": "dsh-sidebar-quiet",
+  "description": "把 DSH 左侧栏底部的功能条目收进一行，悬停或点击展开，给工作区与会话列表腾出垂直空间。",
+  "version": "0.1.0",
+  "entry": {
+    "name": "dsh-sidebar-quiet",
+    "inject": []
+  },
+  "client": {
+    "platform": "web"
+  }
+}
